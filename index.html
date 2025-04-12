@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="start-container">
+    <h1>Welcome to Tic-Tac-Toe</h1>
+    <button class="start" id="start">Start Game</button>
+  </div>
+
+  <div class="game-wrapper" id="game-container">
+    <div class="game-box">
+      <h1>Tic-Tac-Toe</h1>
+      <div class="board" id="board">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+      </div>
+      <div class="status" id="status">Player X's Turn</div>
+      <button class="reset" id="reset">Restart Game</button>
+    </div>
+  </div>
+  <meta name="author" content="developed by Ram Yadav">
+  <div class="popup" id="popup">
+    <p id="popup-message"></p>
+    <button id="popup-close">OK</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
